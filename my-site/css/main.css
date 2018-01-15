@@ -1,0 +1,193 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+width: 1200px;
+margin: auto;
+}
+
+#work, #about, #connect {
+  height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 350px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header img {
+  width: 350px;
+  padding: 20px, 0px, 15px, 20px;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+
+header h1 {
+  margin-top: -27px;
+  margin-bottom: 80px;
+  margin-left: 230px;
+  font-family: 'Roboto' , sans-serif;
+  font-size: 15px;
+  color: #9f1f63;
+}
+
+nav {
+    float: right;
+    padding: 100px 105px;
+  }
+
+nav ul li{
+      display: inline-block;
+  }
+
+nav ul li a {
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 15px;
+      color: #828282;
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+
+  /**** WORK ****/
+
+#work .full-width {
+    margin-top: 0px;
+    padding-left: 105px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    float: left;
+}
+
+#work .third-width {
+  marging-top: 15px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#work img {
+    width: 320px;
+    padding-bottom: 0px;
+}
+
+/**** ABOUT ****/
+
+#about .full-width {
+  margin: 0 auto;
+}
+
+#about-nav .half-width {
+  width: 600px;
+  float: right;
+}
+
+#about-img {
+  width: 485px;
+  margin-left: 50px;
+  float: left;
+  margin-top: 200px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+
+#about-p {
+  font-size: 19px;
+  line-height: 28px;
+  margin-top: -360px;
+  margin-right: 60px;
+  margin-left: 5px;
+  float: right;
+  text-align: left;
+  padding-top: 0px;
+}
+
+#linkedin-icon {
+  width: 60px;
+  margin-left: -5px;
+  margin-right: 550px;
+  margin-top: -55px;
+  padding-top: 0px;
+  float: right;
+}
+
+/*** PROJECTS ***/
+
+.logo-workpg {
+  width: 260px;
+  padding: 20px, 0px, 15px, 20px;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+
+.img-center {
+  display: block;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 685px;
+  max-height: 500px;
+  margin-top: 100px;
+  padding-top: -10px;
+  margin-bottom: -50px;
+}
+
+.project-copy h2 {
+  display: block;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  padding-top: 40px;
+  max-width: 685px;
+  line-height: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.project-copy p {
+  display: block;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  padding-top: 0px;
+  max-width: 685px;
+  line-height: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.work-pg h1 {
+margin-top: -20px;
+margin-bottom: 80px;
+margin-left: 190px;
+font-family: 'Roboto' , sans-serif;
+font-size: 11px;
+color: #9f1f63;
+}
+
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
+}
